@@ -21,8 +21,8 @@ class UDPFlood:
 
     @staticmethod
     def usage():
-        print("Usage: python udpgb.py <target_ip> <target_port> [payload_size]")
-        print("Example: python udpgb.py 192.168.1.1 80 65535")
+        print("Usage: python script_name.py <target_ip> <target_port> [payload_size]")
+        print("Example: python script_name.py 192.168.1.1 80 65535")
 
 if __name__ == "__main__":
     import sys
